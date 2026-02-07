@@ -5,12 +5,12 @@ const socialLinks = [
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/yusufsiddiqui",
+    href: "www.linkedin.com/in/yusuf-siddiqui-53b545173",
   },
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/yusufsiddiqui",
+    href: "https://github.com/yusufsiddiqui11",
   },
   {
     icon: Mail,

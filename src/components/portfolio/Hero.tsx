@@ -87,8 +87,8 @@ export const Hero = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            3+ years crafting scalable web applications with Java Spring, Python FastAPI & React.js. 
-            Passionate about architecting AI-powered platforms and delivering impactful solutions.
+            4+ years crafting scalable web applications with Java Spring, Python FastAPI & React.js. 
+            Passionate about architecting production-ready platforms and delivering impactful solutions.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -120,7 +120,7 @@ export const Hero = () => {
             className="flex items-center justify-center gap-4"
           >
             <a
-              href="https://linkedin.com/in/yusufsiddiqui"
+              href="www.linkedin.com/in/yusuf-siddiqui-53b545173"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full glass hover:bg-primary/10 transition-colors group"
@@ -129,7 +129,7 @@ export const Hero = () => {
               <Linkedin className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://github.com/yusufsiddiqui"
+              href="https://github.com/yusufsiddiqui11"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full glass hover:bg-primary/10 transition-colors group"

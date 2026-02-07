@@ -88,9 +88,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <p>© {currentYear} Yusuf Siddiqui. All rights reserved.</p>
-          <p className="flex items-center gap-1">
-            Made with <Heart className="h-4 w-4 text-red-500 fill-current" /> in India
-          </p>
+         
         </div>
       </div>
     </footer>

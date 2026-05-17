@@ -4,28 +4,28 @@ import { useRef } from "react";
 const skillCategories = [
   {
     title: "Frontend",
-    skills: ["React.js", "TypeScript", "JavaScript", "HTML/CSS", "Tailwind CSS"],
+    skills: ["React.js", "TypeScript", "JavaScript", "HTML/CSS", "Tailwind CSS", "Angular"],
     color: "from-cyan-500 to-blue-500",
   },
   {
     title: "Backend",
-    skills: ["Java", "Python", "Spring Boot", "FastAPI", "REST APIs", "WebSocket"],
+    skills: ["Java", "Spring Boot", "Spring MVC", "Spring Security", "Python", "FastAPI", "REST APIs"],
     color: "from-green-500 to-emerald-500",
   },
   {
-    title: "Databases",
-    skills: ["MySQL", "MongoDB"],
+    title: "Databases & Caching",
+    skills: ["MySQL", "MongoDB", "Redis"],
     color: "from-orange-500 to-amber-500",
   },
   {
-    title: "DevOps & Tools",
-    skills: ["Docker", "Jenkins", "AWS", "Git", "Agile/SCRUM", "TDD"],
-    color: "from-purple-500 to-pink-500",
+    title: "GenAI & Integration",
+    skills: ["OpenAI GPT", "LLM Integration", "Prompt Engineering", "Langfuse", "RabbitMQ", "Microservices"],
+    color: "from-rose-500 to-red-500",
   },
   {
-    title: "AI & Integration",
-    skills: ["OpenAI GPT", "RabbitMQ", "Microservices"],
-    color: "from-rose-500 to-red-500",
+    title: "DevOps & Cloud",
+    skills: ["Docker", "Jenkins CI/CD", "AWS", "Git", "Agile/SCRUM", "TDD"],
+    color: "from-purple-500 to-pink-500",
   },
 ];
 

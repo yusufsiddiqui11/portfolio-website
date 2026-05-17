@@ -87,8 +87,8 @@ export const Hero = () => {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            3+ years crafting scalable web applications with Java Spring, Python FastAPI & React.js. 
-            Passionate about architecting production-ready platforms and delivering impactful solutions.
+            4+ years building scalable microservices and GenAI-powered platforms with Java Spring Boot, Python FastAPI & React.js. 
+            Expert in LLM integration, distributed systems, and shipping high-impact solutions in Agile environments.
           </motion.p>
 
           {/* CTA Buttons */}

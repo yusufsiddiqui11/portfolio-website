@@ -6,28 +6,30 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     title: "StackInterviewer",
-    subtitle: "AI Mock Interview Platform",
+    subtitle: "AI Mock Interview Platform (GenAI)",
     description:
-      "Full-stack AI platform with dynamic question generation, generating instant feedback for users. Architected using Python FastAPI backend with OpenAI GPT-4 integration.",
-    techStack: ["Python FastAPI", "React.js", "OpenAI GPT-4", "RabbitMQ", "MongoDB"],
+      "Full-stack GenAI platform with dynamic question generation powered by OpenAI GPT and LLM integration. Built with Python FastAPI backend, React.js frontend, RabbitMQ async processing, and Langfuse for LLM observability and quality monitoring.",
+    techStack: ["Python FastAPI", "React.js", "OpenAI GPT/LLM", "RabbitMQ", "MongoDB", "Langfuse", "Docker"],
     featured: true,
-    year: "2024",
+    year: "2024 - 2025",
+  },
+  {
+    title: "RaaS",
+    subtitle: "Review & Assessment Platform",
+    description:
+      "Microservices-based platform for learner submissions and reviews. Redesigned backend APIs, optimized MySQL interactions across multiple services, and integrated Langfuse for AI/LLM observability. Enhanced React UI for improved usability and responsiveness.",
+    techStack: ["Java", "Spring Boot", "React.js", "REST APIs", "Langfuse", "Microservices", "MySQL"],
+    featured: true,
+    year: "2025 - Present",
   },
   {
     title: "CredWiz",
     subtitle: "Digital Wallet Application",
     description:
-      "Web application enabling users to manage and perform transactions with a digital wallet. Developed responsive React.js interface improving user satisfaction by 30% through real-time updates.",
-    techStack: ["Java", "Spring Boot", "React.js", "MySQL", "REST APIs"],
+      "Secure full-stack digital wallet with real-time transaction management. Built Spring Security-enforced REST APIs for secure transactions, responsive React.js UI improving user satisfaction by 30%, and containerized deployment via Docker.",
+    techStack: ["Java", "Spring Boot (MVC, JPA, Security)", "React.js", "MySQL", "REST APIs", "Docker"],
     featured: false,
-  },
-  {
-    title: "CasaVenturo",
-    subtitle: "Service Marketplace",
-    description:
-      "Full-stack application helping users manage household tasks and book vendors based on specific needs. Designed intuitive interface enhancing user experience and engagement.",
-    techStack: ["Java", "Spring Boot", "React.js", "MongoDB"],
-    featured: false,
+    year: "2023",
   },
 ];
 

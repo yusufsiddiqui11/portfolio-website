@@ -6,23 +6,23 @@ import { Code2, Rocket, Users, Zap } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "3+ Years",
+    title: "4+ Years",
     description: "Professional Experience",
   },
   {
     icon: Rocket,
-    title: "AI-Powered",
-    description: "Platform Architecture",
+    title: "GenAI",
+    description: "LLM & Platform Architecture",
   },
   {
     icon: Users,
-    title: "Agile",
-    description: "Team Collaboration",
+    title: "Microservices",
+    description: "Distributed Systems",
   },
   {
     icon: Zap,
     title: "Full Stack",
-    description: "End-to-End Development",
+    description: "Java Spring Boot & React",
   },
 ];
 
@@ -56,16 +56,17 @@ export const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I'm a <span className="text-foreground font-medium">Software Engineer</span> with 3+ years of experience developing scalable web applications. 
-              I specialize in <span className="text-primary">Java Spring Framework</span>, <span className="text-primary">Python FastAPI</span>, and <span className="text-primary">React.js</span>.
+              I'm a <span className="text-foreground font-medium">Full Stack Software Engineer</span> with 4+ years of experience building scalable microservices and GenAI-powered platforms. 
+              I specialize in <span className="text-primary">Java Spring Boot</span>, <span className="text-primary">Python FastAPI</span>, and <span className="text-primary">React.js</span>.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
               I've successfully architected AI-powered platforms like <span className="text-foreground font-medium">StackInterviewer</span>, 
-              implemented microservices handling multiple daily transactions, and delivered features with measurable performance improvements in Agile environments.
+              built the <span className="text-foreground font-medium">RaaS (Review & Assessment)</span> platform handling complex workflows, 
+              and delivered secure, scalable microservices with 25%+ performance improvements. Proficient in LLM integration, distributed systems, and Agile delivery.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My passion lies in creating elegant, efficient solutions that make a real impact. 
-              I thrive in collaborative environments and am always eager to tackle new challenges.
+              My passion lies in architecting elegant, high-performance solutions that scale. 
+              I thrive in collaborative environments and love tackling complex technical challenges with production-ready code.
             </p>
           </motion.div>
 

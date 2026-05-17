@@ -10,11 +10,11 @@ const experiences = [
     duration: "June 2022 - Present",
     location: "India",
     points: [
-      "Architected StackInterviewer, an AI-powered mock interview platform using Python FastAPI and React.js with OpenAI GPT integration",
-      "Collaborated with cross-functional teams to design and implement scalable, maintainable software solutions using Java, Spring Framework, Python, and React",
-      "Led the development of features and enhancements for the company's internal platform",
-      "Applied Agile development methodologies, facilitating efficient project management through regular sprints and continuous feedback loops",
-      "Conducted thorough code reviews to ensure code quality, adherence to best practices, and maintainability",
+      "Designed and delivered scalable Java/Spring Boot microservices handling thousands of requests/day with Spring Security and compliance standards",
+      "Architected StackInterviewer, an AI-powered mock interview platform integrating OpenAI GPT, LLM, RabbitMQ, and Langfuse for quality monitoring",
+      "Improved system performance by 25% through optimized REST APIs, Spring JPA query tuning, and containerized Docker/AWS deployments",
+      "Led development of RaaS (Review & Assessment) platform, redesigning microservices APIs and optimizing DB interactions for improved workflow efficiency",
+      "Applied Agile/SCRUM methodologies with Jenkins CI/CD pipelines, code reviews, and TDD for high-quality, maintainable software delivery",
     ],
   },
 ];
